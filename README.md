@@ -7,11 +7,11 @@ Running WASM on ESP32 using Arduino programming style, WASM interpreter is [wasm
 Forked from [alvarowolfx/wasm-arduino-wifi](https://github.com/alvarowolfx/wasm-arduino-wifi).
 
 ## File structure
-- **rust**, **tinygo**, **assemblyscript**: Application and glue code in different high-level languages.
-- **src**: Main logic to create interpreter instance and execute Wasm.
-- **web, include, lib, test**: Other sources.
-- **data**: SPIFFS temporary folder, which contains the to-be-OTAed WASM file.
-- **platformio.ini**: Configuration file of Platform IO, which contains the used library.
+- `rust`, `tinygo`, `assemblyscript`: Application and glue code in different high-level languages.
+- `src`: Main logic to create interpreter instance and execute Wasm.
+- `web`, `include`, `lib`, `test`: Other sources.
+- `data`: SPIFFS temporary folder, which contains the to-be-OTAed WASM file.
+- `platformio.ini`: Configuration file of Platform IO, which contains the used library.
 ## Usage
 
 Tested with ESP32-DevKitC, whose MCU is `ESP32-WROOM-32`.
