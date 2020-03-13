@@ -14,7 +14,7 @@ Forked from [alvarowolfx/wasm-arduino-wifi](https://github.com/alvarowolfx/wasm-
 - **platformio.ini**: Configuration file of Platform IO, which contains the used library.
 ## Usage
 
-Tested with ESP32-`ESP32-WROOM-32`.
+Tested with ESP32-DevKitC, whose MCU is `ESP32-WROOM-32`.
 
 ### Compile & Burn
 1. Install PlatformIO IDE
